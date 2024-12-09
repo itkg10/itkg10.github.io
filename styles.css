@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #000000;
+    color: #eecf48;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #969191;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: #fad044;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.mensaje {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.detalles {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.detalles p {
+    margin: 10px 0;
+}
+
+.confirmacion {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rsvp {
+    font-size: 1.1em;
+    color: #d14949;
+}
+
+.firma {
+    font-size: 1.5em;
+    color: #25e9a7;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+    /* Agregamos la animación */
+    animation: movimiento 3s ease-in-out infinite;
+}
+
+/* Definimos la animación */
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* La imagen sube 15px */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
